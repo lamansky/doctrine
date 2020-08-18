@@ -1,0 +1,28 @@
+{
+  "name": "lamansky/doctrine",
+  "description": "A collection of classes useful in almost any project that uses the Doctrine ORM.",
+  "type": "library",
+  "keywords": [
+    "Doctrine2",
+    "Doctrine type"
+  ],
+  "homepage": "https://github.com/lamansky/doctrine",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fr. John Lamansky",
+      "homepage": "https://lamansky.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "doctrine/orm": "^2.7.3",
+    "nesbot/carbon": "^2.37.0"
+  },
+  "require-dev": {
+    "lamansky/phpcs": "^1"
+  },
+  "autoload": {
+    "psr-4": {"Lamansky\\Doctrine\\": "src/"}
+  }
+}
