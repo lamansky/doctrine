@@ -16,11 +16,18 @@
   ],
   "require": {
     "php": ">=7.4.0",
-    "doctrine/orm": "^2.7.3",
-    "nesbot/carbon": "^2.37.0"
+    "doctrine/annotations": "^1.13",
+    "doctrine/orm": "^2.11.2",
+    "nesbot/carbon": "^2.57.0",
+    "symfony/cache": "^5.4"
   },
   "require-dev": {
     "lamansky/phpcs": "^1"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   },
   "autoload": {
     "psr-4": {"Lamansky\\Doctrine\\": "src/"}
