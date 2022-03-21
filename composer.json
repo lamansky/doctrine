@@ -1,5 +1,6 @@
 {
   "name": "lamansky/doctrine",
+  "version": "1.0.1",
   "description": "A collection of classes useful in almost any project that uses the Doctrine ORM.",
   "type": "library",
   "keywords": [
